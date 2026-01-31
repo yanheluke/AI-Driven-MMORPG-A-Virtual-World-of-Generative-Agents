@@ -5,6 +5,7 @@ Copy the template, paste it to your GitHub README and edit! -->
 # AI-Driven MMORPG: A Virtual World of Generative Agents
 
 Final project for the Building AI course
+
 Author: Yan He
 
 ## Summary
