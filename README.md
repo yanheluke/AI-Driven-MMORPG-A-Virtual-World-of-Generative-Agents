@@ -16,8 +16,11 @@ This is a large-scale, multiplayer virtual world game where the environment is d
 ## Background
 
 Traditional game development relies on the coordination of game designers, artists, and engineers. Designers define mechanics, artists craft environments, and engineers implement the code. To drive plots, games typically use Behavior Trees, but this approach results in linear, pre-enumerated narratives lacking true unpredictability.
+
 This project aims to create an infinite world fueled by player exploration and interaction.
+
 Inspired by Mamoru Hosoda’s 2009 film Summer Wars and the 2023 Stanford paper Generative Agents: Interactive Simulacra of Human Behavior. 
+![summer wars](https://www.primevideo.com/detail/Summer-Wars/0JGH6FXMJFZARL0S5UC98LM4XU)
 
 
 ## How is it used?
