@@ -10,7 +10,7 @@ Author: Yan He
 
 ## Summary
 
-This is a large-scale, multiplayer virtual world game where the environment is dynamically constructed by AI, and NPCs are powered by "long-memory" generative agents. Leveraging advancements in AI, the boundary between human players and AI characters becomes indistinguishable, creating a seamless collaborative and social experience.
+This is a large-scale, multiplayer virtual world game where the environment is dynamically constructed by AI, and NPCs are powered by **"long-memory" generative agents**. Leveraging advancements in AI, the boundary between human players and AI characters becomes indistinguishable, creating a seamless collaborative and social experience.
 
 
 ## Background
@@ -19,14 +19,16 @@ Traditional game development relies on the coordination of game designers, artis
 
 This project aims to create an infinite world fueled by player exploration and interaction.
 
-Inspired by Mamoru Hosoda’s 2009 film Summer Wars and the 2023 Stanford paper Generative Agents: Interactive Simulacra of Human Behavior. 
-![summer wars](https://www.primevideo.com/detail/Summer-Wars/0JGH6FXMJFZARL0S5UC98LM4XU)
+Inspired by Mamoru Hosoda’s 2009 film **Summer Wars** and the 2023 Stanford paper **Generative Agents: Interactive Simulacra of Human Behavior**. 
+![summer wars](https://github.com/yanheluke/AI-Driven-MMORPG-A-Virtual-World-of-Generative-Agents/blob/main/summer%20wars.jpg))
 
 
 ## How is it used?
 
-The game world generation is AI-driven. Unlike traditional workflows, we utilize Diffusion Models and LLMs to prototype environments, cities, and architectural complexes. 
+The game world generation is AI-driven. Unlike traditional workflows, we utilize **Diffusion Models** and **LLMs** to prototype environments, cities, and architectural complexes. 
+
 More importantly, NPCs are no longer bound by hard-coded behavior trees. By assigning NPCs unique personas and backstories, they respond to players in real-time in a manner consistent with their character.
+
 Players can explore freely, triggering quests and plots based solely on their interactions. The most exciting aspect is the "Turing Test" experience—players cannot discern whether a quest-giver is a human or an AI agent.
 
 ![citys](https://github.com/yanheluke/AI-Driven-MMORPG-A-Virtual-World-of-Generative-Agents/blob/main/city.png)
@@ -37,16 +39,16 @@ Players can explore freely, triggering quests and plots based solely on their in
 ## Data sources and AI methods
 The primary data sources are LLMs and Diffusion models.
 
-- Visuals: Open-source models like FLUX and Qwen2-VL, or closed-source high-fidelity models like Nano Banana Pro, generate the scenes.
+- **Visuals**: Open-source models like **FLUX** and **Qwen2-VL**, or closed-source high-fidelity models like **Nano Banana Pro**, generate the scenes.
 
-- Intelligence: Agents are built using ChatGPT or Gemini. Open-source models like DeepSeek, Qwen, and GLM are ideal for domain-specific fine-tuning.
+- **Intelligence**: Agents are built using **ChatGPT** or **Gemini**. Open-source models like **DeepSeek, Qwen, and GLM** are ideal for domain-specific fine-tuning.
 
 
 ## Challenges
 
-1. Efficiency & Latency: Real-time interaction requires minimal "thinking-reasoning" lag, which is a hurdle for current heavy LLMs.
-2. Long-term Memory: Under the standard Transformer architecture, maintaining consistent long-term memory remains difficult; agents may lose track of context during extended interactions.
-3. Persona Accuracy: We need "ordinary" agents, not omniscient assistants. Pruning and specialized prompting are required to simulate a neighbor who might be "ignorant" of complex topics like quantum mechanics.
+1. **Efficiency & Latency**: Real-time interaction requires minimal "thinking-reasoning" lag, which is a hurdle for current heavy LLMs.
+2. **Long-term Memory**: Under the standard Transformer architecture, maintaining consistent long-term memory remains difficult; agents may lose track of context during extended interactions.
+3. **Persona Accuracy**: We need "ordinary" agents, not omniscient assistants. Pruning and specialized prompting are required to simulate a neighbor who might be "ignorant" of complex topics like quantum mechanics.
 
 ## What next?
 
