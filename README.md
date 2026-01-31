@@ -20,7 +20,7 @@ Traditional game development relies on the coordination of game designers, artis
 This project aims to create an infinite world fueled by player exploration and interaction.
 
 Inspired by Mamoru Hosoda’s 2009 film **Summer Wars** and the 2023 Stanford paper **Generative Agents: Interactive Simulacra of Human Behavior**. 
-![summer wars](https://github.com/yanheluke/AI-Driven-MMORPG-A-Virtual-World-of-Generative-Agents/blob/main/summer%20wars.jpg))
+![summer wars](https://github.com/yanheluke/AI-Driven-MMORPG-A-Virtual-World-of-Generative-Agents/blob/main/summer%20wars.jpg)
 
 
 ## How is it used?
